@@ -122,13 +122,15 @@ body {
 
 /* reg-section start */
 .reg{
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 60px;
   margin-top: 200px;
-  border-top: 1px solid red;
+  border-radius: 16px;
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
 }
 .reg-contant{
   width: 549px;
@@ -144,6 +146,7 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 600px;
+  
  
 }
 #first{
@@ -179,3 +182,87 @@ body {
   
 }
 /* reg-section end */
+
+
+/* best offer start */
+.best-offer{
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.best-offer-left{
+  width: 33%;
+  margin-top: 78px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.left-title{
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: red;
+  }
+.left-sub-title{
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.left-description{
+  font-family:  "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+  
+
+.best-offer-mid{
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.best-offer-right{
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+
+
+}
+.best-offer-right-2{
+  width:fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 40px;
+  padding: 0px 0px 0px 150px;
+  
+}
+#mid-image{
+  border: 15px solid red;
+  padding: 20px;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.best-offer-right h2{
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: red;
+}
+
+.best-offer-right p{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+ 
+}
+
+.best-offer-right img{
+  width:40%
+}
+
+
+/* best offer end*/
