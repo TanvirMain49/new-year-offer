@@ -264,5 +264,77 @@ body {
   width:40%
 }
 
-
 /* best offer end*/
+
+/* Holiday section start */
+.holidays{
+  margin-top: 90px;
+}
+.holiday-contant{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.holiday-title{
+  color: rgb(7, 2, 17);
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holiday-sale{
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 16px;
+}
+.description-container{
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 32px 126px 0px 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.holiday-title-red{
+  color: red;
+}
+/* .line-1{
+margin-top: 16px;
+} */
+.line-2{
+margin-top: 16px;
+}
+.line-3{
+margin-top: 48px;
+}
+
+/* holiday section end */
+
+/* discount-section start */
+
+.discount{
+  margin-top: 112px;
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+.left-img{
+width: 50%;
+
+
+}
+.right-img{
+width: 50%;
+margin-left: 250px;
+}
+/* discount-section end */
